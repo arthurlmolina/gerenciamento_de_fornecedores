@@ -12,7 +12,7 @@ import java.util.Optional;
 public class FornecedorService {
 
     @Autowired
-    FornecedorRepository fornecedorRepository;
+    private FornecedorRepository fornecedorRepository;
 
     public List<FornecedorModel> findAll(){
         return fornecedorRepository.findAll();
