@@ -19,7 +19,7 @@ import java.util.Optional;
 public class FornecedorController {
 
     @Autowired
-    FornecedorService fornecedorService;
+    private FornecedorService fornecedorService;
 
     @GetMapping
     public ResponseEntity<List<FornecedorModel>> findAll(){
