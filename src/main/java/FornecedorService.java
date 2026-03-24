@@ -26,6 +26,12 @@ public class FornecedorService {
 
     public FornecedorModel atualizar(FornecedorModel fornecedorModel, Long id){
         FornecedorModel fornecedor = fornecedorRepository.findById(id).get();
-        fornecedor.set();
+        fornecedor.setNomeFantasia(fornecedorModel.getNomeFantasia());
+        return fornecedorRepository.save(fornecedorModel);
     }
+
+    public void deletar(Long id){
+        fornecedorRepository.deleteById(id);
+    }
+    
 }

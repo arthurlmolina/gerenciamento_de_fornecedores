@@ -49,4 +49,6 @@ public class FornecedorModel {
     public void setContato(String contato) {
         this.contato = contato;
     }
+
+
 }
