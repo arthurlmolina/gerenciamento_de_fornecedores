@@ -1,3 +1,5 @@
+package com.example.gerenciamento_de_fornecedores.services;
+
 import com.example.gerenciamento_de_fornecedores.models.FornecedorModel;
 import com.example.gerenciamento_de_fornecedores.repositories.FornecedorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,5 +35,5 @@ public class FornecedorService {
     public void deletar(Long id){
         fornecedorRepository.deleteById(id);
     }
-    
+
 }

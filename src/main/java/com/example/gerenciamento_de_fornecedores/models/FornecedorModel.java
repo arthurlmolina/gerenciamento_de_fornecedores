@@ -11,7 +11,7 @@ public class FornecedorModel {
     private Long id;
     private String nomeFantasia;
     @Column(name = "cnpjFornecedor")
-    private String cpnj;
+    private String cnpj;
     @Column(name = "contatoFornecedor")
     private String contato;
 
