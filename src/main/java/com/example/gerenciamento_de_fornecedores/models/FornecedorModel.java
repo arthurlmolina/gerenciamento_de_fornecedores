@@ -14,4 +14,39 @@ public class FornecedorModel {
     private String cpnj;
     @Column(name = "contatoFornecedor")
     private String contato;
+
+    public FornecedorModel() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNomeFantasia() {
+        return nomeFantasia;
+    }
+
+    public void setNomeFantasia(String nomeFantasia) {
+        this.nomeFantasia = nomeFantasia;
+    }
+
+    public String getCpnj() {
+        return cpnj;
+    }
+
+    public void setCpnj(String cpnj) {
+        this.cpnj = cpnj;
+    }
+
+    public String getContato() {
+        return contato;
+    }
+
+    public void setContato(String contato) {
+        this.contato = contato;
+    }
 }
