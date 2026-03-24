@@ -34,12 +34,12 @@ public class FornecedorModel {
         this.nomeFantasia = nomeFantasia;
     }
 
-    public String getCpnj() {
-        return cpnj;
+    public String getCnpj() {
+        return cnpj;
     }
 
-    public void setCpnj(String cpnj) {
-        this.cpnj = cpnj;
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
     }
 
     public String getContato() {
